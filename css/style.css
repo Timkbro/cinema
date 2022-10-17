@@ -513,11 +513,12 @@ body{background: var(--dark); color: var(--white);}
 }
 .footer-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .footer-apps{
   display: inline-flex;
+  justify-content: space-between;
   align-items: center;
   column-gap: 50px;
 
@@ -525,13 +526,6 @@ body{background: var(--dark); color: var(--white);}
 .footer_img {
   width: 106px;
   height: 27.1px;
-}
-.footer-txt span{
-  font-family: var(--c);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  color: var(--white);
 }
 
 
